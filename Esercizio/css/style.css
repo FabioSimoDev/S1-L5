@@ -4,11 +4,12 @@ body{
     line-height: 1.65em;
     font-weight: 400;
     color: #393D41;
+    text-align: center;
 }
 
 header nav{
     background-color: black;
-    height: 10em;
+    height: 7em;
     text-align: center;
     width: 100%;
     max-width: 100%;
@@ -17,7 +18,7 @@ header nav{
 }
 
 header nav img{
-    width: 12.6em;
+    width: 9em;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -117,8 +118,31 @@ h1{
     font-size: 15px;
 }
 
+#about aside .frame{
+    border: 1px solid #dee1e3;
+    width: 87%;
+    margin: auto;
+    margin-top: 3.5em;
+    border-radius: 5px;
+}
+
+#about aside .frame h3{
+    margin-bottom: 0.5em;
+}
+
+#about aside .frame p{
+    margin-bottom: 2.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+#about aside .frame img{
+    width: 100%;
+    margin-bottom: 0.8em;
+}
+
 footer #contact{
-    background-color: #27A3C9;
+    background-color: #25A2C3;
     color: white;
     text-align: center;
     padding-top: 3em;
@@ -134,7 +158,7 @@ footer #contact hr{
 }
 
 
-#contact h2{
+footer #contact h2{
     color: white;
     font-size: 32px;
     margin-bottom: 1em;
@@ -142,4 +166,12 @@ footer #contact hr{
 
 footer #contact p{
     margin-bottom: 1.5em;
+}
+
+footer #contact a{
+    color: white;
+}
+
+footer{
+    margin-top: 5em;
 }
