@@ -8,10 +8,6 @@ body{
     text-align: center;
 }
 
-img{
-    width: 50px;
-}
-
 .titles{
     color: #25A2C3;
     font-family: 'Montserrat', sans-serif;
@@ -45,7 +41,7 @@ header nav img{
 
 /* MAIN */
 #hero{
-    background-image: url("../images/banner.jpg");
+    background-image: url("../../images/banner.jpg");
     background-size: cover;
     background-position: center;
     height: 23.5em;
