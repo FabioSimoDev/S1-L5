@@ -1,3 +1,4 @@
+/* GENERALE */
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
@@ -7,41 +8,8 @@ body{
     text-align: center;
 }
 
-header nav{
-    background-color: black;
-    height: 7em;
-    text-align: center;
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    position: relative;
-}
-
-header nav img{
-    width: 9em;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
 img{
     width: 50px;
-}
-
-#hero{
-    background-image: url("../images/banner.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 23.5em;
-    text-align: center;
-}
-
-#hero p{
-    margin-left: 1.6em;
-    margin-right: 1.6em;
-    font-size: 23px;
-    line-height: 1.5em;
 }
 
 .titles{
@@ -58,6 +26,38 @@ h1{
     margin-bottom: 0.5em;
 }
 
+/* HEADER */
+header nav{
+    background-color: black;
+    height: 7em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header nav img{
+    width: 9em;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* MAIN */
+#hero{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 23.5em;
+}
+
+#hero p{
+    margin-left: 1.6em;
+    margin-right: 1.6em;
+    font-size: 23px;
+    line-height: 1.5em;
+}
+
 #hero button{
     font-family: 'Montserrat', sans-serif;
     background-color: #f04c2f;
@@ -71,8 +71,8 @@ h1{
     margin-top: 2.5em;
 }
 
+/* SERVICES */
 #services .vantages{
-    text-align: center;
     margin-left: 1em;
     margin-right: 1em;
     padding-top: 3.4em;
@@ -102,7 +102,6 @@ h1{
     padding-right: 1em;
     padding-top: 3.4em;
     padding-bottom: 1em;
-    text-align: center;
 }
 
 #services .quote-div h2{
@@ -118,6 +117,7 @@ h1{
     font-size: 15px;
 }
 
+/* ABOUT */
 #about aside .frame{
     border: 1px solid #dee1e3;
     width: 87%;
@@ -141,10 +141,10 @@ h1{
     margin-bottom: 0.8em;
 }
 
+/* FOOTER */
 footer #contact{
     background-color: #25A2C3;
     color: white;
-    text-align: center;
     padding-top: 3em;
     padding-bottom: 4em;
 }
@@ -156,7 +156,6 @@ footer #contact hr{
     border: 0px;
     margin-bottom: 1em;
 }
-
 
 footer #contact h2{
     color: white;
